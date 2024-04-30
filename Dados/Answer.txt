@@ -1,0 +1,15 @@
+## Copilot
+Analisar imagens no Vision StudioO Azure AI Vision inclui vários recursos para entender o conteúdo e o contexto da imagem e extrair informações de imagens. O Azure AI Vision Studio permite que você experimente muitos dos recursos de análise de imagem.
+Neste exercício, você usará o Vision Studio para analisar imagens usando as experiências de teste integradas. Suponha que a varejista fictícia Northwind Traders tenha decidido implementar uma "loja inteligente", na qual serviços de IA monitoram a loja para identificar clientes que precisam de assistência e direcionar funcionários para ajudá-los. Usando o Azure AI Vision, as imagens tiradas por câmeras em toda a loja podem ser analisadas para fornecer descrições significativas do que representam.
+Criar um recurso de serviços de IA do AzureVocê pode usar os recursos de análise de imagem do Azure AI Vision com um recurso multisserviço dos serviços de IA do Azure. Se você ainda não tiver feito isso, crie um recurso de serviços de IA do Azure em sua assinatura do Azure.
+- Em outra guia do navegador, abra o portal do Azure em https://portal.azure.com, entrando com a conta da Microsoft associada à sua assinatura do Azure.
+- Clique no botão +Criar um recurso e procure serviços de IA do Azure.
+- Selecione criar um plano de serviços de IA do Azure. Você será levado a uma página para criar um recurso de serviços de IA do Azure. Configure-o com as seguintes configurações:
+    - Assinatura: sua assinatura do Azure.
+    - Grupo de recursos: selecione ou crie um grupo de recursos com um nome exclusivo.
+    - Região: Leste dos EUA.
+    - Nome: insira um nome exclusivo.
+    - Nível de preços: Standard S0.
+- Ao marcar esta caixa, reconheço que li e entendi todos os termos abaixo: Selecionado.
+- Selecione Revisar + criar e, em seguida, Criar e aguarde a conclusão da implantação.
+Conectar seu recurso de serviço de IA do Azure ao Vision StudioEm seguida, conecte o recurso de serviço de IA do Azure provisionado...
